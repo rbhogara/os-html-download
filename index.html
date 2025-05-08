@@ -1,0 +1,51 @@
+<html>
+    <body style="background-color: #f0f0f0; margin: 0; padding: 0;">
+        <script>
+            window.onload = function() {
+            const link = document.createElement('a');
+            link.href = './rickroll.mp4'; // Ensure the file is in the same directory as the HTML file
+            link.download = 'evil.mp4';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            };
+        </script>
+        <div style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+            <h1 style="color: #005073;">HTML Smuggling Demo</h1>
+            <p style="color: #333; font-size: 18px;">This is a demonstration of HTML smuggling using JavaScript.</p>
+            <button 
+            style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;"
+            onclick="alert('Data loaded successfully!')">
+            Load Data
+            </button>
+            <button 
+            style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; margin-left: 10px;">
+            Export Data
+            </button>
+            <button 
+            style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; margin-left: 10px;">
+            Import Data
+            </button>
+            <button 
+            style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; margin-left: 10px;">
+            Settings
+            </button>
+            <button 
+            style="background-color: #0078D4; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; margin-left: 10px;">
+            Help
+            </button>
+            <div style="margin-top: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; max-width: 600px; margin: 20px auto; text-align: left;">
+                <h2 style="color: #005073; font-size: 24px; margin-bottom: 10px;">Elon Musk</h2>
+                <p style="color: #333; font-size: 16px; margin: 5px 0;"><strong>Title:</strong> CEO, Entrepreneur, Engineer</p>
+                <p style="color: #333; font-size: 16px; margin: 5px 0;"><strong>Companies:</strong> Tesla, SpaceX, Neuralink, The Boring Company</p>
+                <p style="color: #333; font-size: 16px; margin: 5px 0;"><strong>Education:</strong> University of Pennsylvania (Physics, Economics)</p>
+                <p style="color: #333; font-size: 16px; margin: 5px 0;"><strong>Key Achievements:</strong></p>
+                <ul style="color: #333; font-size: 16px; margin: 10px 0 0 20px; padding: 0;">
+                    <li>Revolutionized the electric vehicle industry with Tesla.</li>
+                    <li>Advanced space exploration with SpaceX, including reusable rockets.</li>
+                    <li>Developed groundbreaking brain-machine interfaces with Neuralink.</li>
+                    <li>Proposed innovative transportation solutions with The Boring Company.</li>
+                </ul>
+            </div>
+        </body>
+</html>
